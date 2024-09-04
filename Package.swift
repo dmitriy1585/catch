@@ -2,14 +2,14 @@
 import PackageDescription
 
 let package = Package(
-    name: "ActiveLabel",
+    name: "Catch2",
     products: [
-        .library(name: "ActiveLabel", targets: ["ActiveLabel"])
+        .library(name: "Catch2", targets: ["Catch2"])
     ],
     targets: [
         .target(
-            name: "ActiveLabel",
-            path: "ActiveLabel"
+            name: "Catch2",
+            path: "Catch2"
         )
     ]
 )
